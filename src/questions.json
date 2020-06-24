@@ -1,0 +1,61 @@
+{
+    "questions":[
+        {
+            "text":"You have a box",
+            "options":[
+                {
+                    "text":"Open the box",
+                    "actionIndex":2
+                },
+                {
+                    "text":"throw the box",
+                    "actionIndex":4
+                }
+            ]
+        },
+        {
+            "text":"There is a key",
+            "options":[
+                {
+                    "text":"take the key",
+                    "actionIndex":2
+                },
+                {
+                    "text":"throw the box",
+                    "actionIndex":4
+                }
+            ]
+        },
+        {
+            "text":"There is a door, but thats locked",
+            "options":[
+                {
+                    "text":"Open the door using the key",
+                    "actionIndex":3
+                },
+                {
+                    "text":"Go back",
+                    "actionIndex":4
+                }
+            ]
+        },
+        {
+            "text":"You found the treasure,you won!",
+            "options":[
+                {
+                    "text":"exit the game",
+                    "actionIndex":3
+                }
+            ]
+        },
+        {
+            "text":"Failed",
+            "options":[
+                {
+                    "text":"exit the game",
+                    "actionIndex":4
+                }
+            ]
+        }
+    ]
+}
